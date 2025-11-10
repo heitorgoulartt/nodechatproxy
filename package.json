@@ -1,0 +1,15 @@
+{
+  "name": "nodechatproxy",
+  "version": "1.0.0",
+  "description": "Proxy to forward WhatsApp messages from n8n to 2Chat API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
+}
